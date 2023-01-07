@@ -6,11 +6,12 @@
 }
 
 /* global style start */
-     section{
-          max-width: 1140px;
-          margin: 0 auto;
-          margin-top: 130px;
-     }
+section {
+     max-width: 1140px;
+     margin: 0 auto;
+     margin-top: 130px;
+}
+
 /* global style end */
 
 /* header style start */
@@ -54,7 +55,7 @@
 
 .btn-primary {
      padding: 18px 30px;
-     border:none;
+     border: none;
      border-radius: 5px;
      font-size: 20px;
      color: #005FAC;
@@ -64,35 +65,75 @@
 
 /* failure section style start */
 
-.failure-area{
+.failure-area {
      display: flex;
      align-content: center;
      align-items: center;
-     
-     
+
+
 }
-.image-area{
+
+.image-area {
      background: rgba(204, 204, 204, 0.2);
-     
+
 }
-.content-area{
-     padding:0 100px 0 50px;
+
+.content-area {
+     padding: 0 100px 0 50px;
 }
-.failure-title{
+
+.failure-title {
      font-size: 40px;
      text-align: left;
      padding: 32px 20px;
 }
-.content-area ul{
+
+.fai-description {
+     color: #444343;
+}
+
+.content-area ul {
      padding: 20px 0;
 }
-.content-area li{
+
+.content-area li {
      list-style-type: none;
      padding: 8px 0;
+     color: #444343;
 }
-.content-area ul .fa-check{
+
+.content-area ul .fa-check {
      color: green;
      padding-right: 10px;
 }
 
 /* failure section style end */
+
+/* Plans section start */
+
+.plans-content {
+     display: flex;
+     justify-content: space-between;
+}
+
+.plans-title {
+     font-size: 40px;
+     text-align: center;
+     padding: 32px 0;
+}
+
+.content-item {
+     text-align: center;
+}
+
+.content-title {
+     font-size: 30px;
+     padding: 16px 0;
+}
+
+.cont-descrip {
+     font-size: 25px;
+     color: #737272;
+}
+
+/* Plans section end */
