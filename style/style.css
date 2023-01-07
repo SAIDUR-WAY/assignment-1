@@ -10,10 +10,11 @@ section {
      max-width: 1140px;
      margin: 0 auto;
      margin-top: 130px;
-     margin-bottom: 130px;
+     margin-bottom: 100px;
 }
 
-.btn-primary {
+.btn-primary,
+.subscribe-item input[type=submit] {
      padding: 18px 30px;
      border: none;
      border-radius: 5px;
@@ -29,8 +30,8 @@ section {
 .header-section {
      background: url("../images/banner/banner3.png");
      background-repeat: no-repeat;
-     background-size: cover;
-     height: 650px;
+     background-size: contain;
+     height: 808px;
 }
 
 .header-content {
@@ -161,3 +162,100 @@ section {
 }
 
 /* Mind section end */
+
+/* Footer section start */
+
+footer {
+     background: #151414;
+     height: 570px;
+     color: #fff;
+}
+
+.footer-area {
+     display: flex;
+     justify-content: space-between;
+     align-content: center;
+     align-items: center;
+     max-width: 1140px;
+     height: 570px;
+     margin: 0 auto;
+}
+
+.future-item {
+     width: 485px;
+}
+
+.subscrbe-item {
+     width: 325px;
+}
+
+.future-title {
+     font-size: 45px;
+     font-weight: 700;
+     padding: 16px 0;
+}
+
+.fut-descirb {
+     line-height: 26px;
+     padding: 10px 0;
+}
+
+.social-item ul {
+     margin-top: 10px;
+}
+
+.social-item ul li {
+     list-style-type: none;
+     display: inline-block;
+     margin: 10px;
+}
+
+.social-item ul li .fa-brands {
+     font-size: 32px;
+}
+
+.social-item ul li .fa-facebook:hover {
+     color: #0B86EE;
+}
+
+.social-item ul li .fa-twitter:hover {
+     color: #1DA1F2;
+}
+
+.social-item ul li .fa-youtube:hover {
+     color: #FF0000;
+}
+
+.subscribe {
+     width: 325px;
+     margin-top: -76px;
+}
+
+.sub-title {
+     font-size: 25px;
+     font-weight: 600;
+     padding-bottom: 32px;
+}
+
+.subscribe-item input[type=email] {
+     padding: 23px 15px;
+     width: 100%;
+     background: transparent;
+     border: 2px solid #444343;
+     border-radius: 10px;
+     font-size: 18px;
+     margin-bottom: 24px;
+
+}
+
+.subscribe-item input[type=submit] {
+     display: block;
+     color: #fff;
+     background: #005FAC;
+     font-family: 'Inter', sans-serif;
+     border-radius: 10px;
+
+
+}
+
+/* Footer section end */
