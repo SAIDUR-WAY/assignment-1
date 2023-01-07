@@ -21,6 +21,17 @@ section {
      font-size: 20px;
      font-weight: 600px;
      color: #005FAC;
+     transition: all 0.3s;
+}
+
+.btn-primary:hover {
+     background: #2AB9EE;
+     color: #fff;
+}
+
+.subscribe-item input[type=submit]:hover {
+     background: #fff;
+     color: #005FAC;
 }
 
 a {
@@ -112,6 +123,7 @@ li {
 .content-area ul .fa-check {
      color: green;
      padding-right: 10px;
+     font-size: 18px !important;
 }
 
 /* failure section style end */
@@ -219,6 +231,14 @@ footer {
      list-style-type: none;
      display: inline-block;
      margin: 10px;
+     transition: all 0.3s;
+}
+
+.social-item ul li .fa-brands,
+.fa-facebook,
+.fa-twitter,
+.fa-youtube {
+     transition: all 0.3s;
 }
 
 .social-item ul li .fa-brands {
@@ -270,3 +290,76 @@ footer {
 }
 
 /* Footer section end */
+
+
+
+
+/*********** Working section start ***********
+and Extra bonus section********/
+
+.working-title {
+     font-size: 45px;
+     font-weight: 700;
+     text-align: center;
+
+}
+
+.work-description {
+     color: #747272;
+     text-align: center;
+     padding: 40px 300px;
+}
+
+.working-idea {
+     display: flex;
+     justify-content: space-between;
+}
+
+.working-process {
+     width: 270px;
+     height: 300px;
+     text-align: center;
+     padding: 80px 0 50px 0;
+     transition: all 0.5s;
+
+}
+
+.working-process:hover {
+     box-shadow: 5px 3px 20px;
+}
+
+.working-process a {
+     display: block;
+     color: black;
+     text-align: center;
+     margin-bottom: 40px;
+     text-transform: uppercase;
+     font-size: 20px;
+     font-weight: 600;
+
+}
+
+.work-1 {
+     background-color: #005fac6d;
+}
+
+.work-2 {
+     background-color: #0b88eea4;
+}
+
+.work-3 {
+     background-color: #15141428;
+}
+
+.work-4 {
+     background-color: #00ff1e61;
+}
+
+.fa-solid,
+.fa-sharp {
+     color: #737272;
+     font-size: 60px;
+}
+
+/*********** Working section End ***********
+and Extra bonus section********/
